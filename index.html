@@ -1,0 +1,1842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dermatology - Responsive HTML Template</title>
+  <!-- FAVICON-ICON -->
+  <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+  <!-- ANIMATE-CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <!-- SWIPER-CSS -->
+  <link rel="stylesheet" href="assets/css/swiper/swiper-bundle.min.css">
+  <!-- IMAGE-COMPARE-CSS -->
+  <link rel="stylesheet" href="assets/css/image-compare/image-compare-viewer.min.css">
+  <!-- BACK-TO-TOP-CSS -->
+  <link rel="stylesheet" href="assets/css/back-top/back-top.css">
+  <!-- AOS-CSS -->
+  <link rel="stylesheet" href="assets/css/aos/aos.css">
+  <!-- BOOTSTRAP-CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+  <!-- CUSTOM-CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <!-- JQUERY-JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body class="p-0">
+  <!-- PRELOADER-START -->
+  <div class="preloader" id="preloader">
+    <div class="loader">
+      <svg width="200" height="150" viewBox="0 0 818 498" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="strokeGradient">
+            <stop offset="5%" stop-color="#191919" />
+            <stop offset="60%" stop-color="#F26522" />
+            <stop offset="100%" stop-color="#F26522" />
+          </linearGradient>
+        </defs>
+        <path class="pulse" d="M0 305.5H266L295.5 229.5L384 496L460 1.5L502.5 377.5L553 305.5H818" stroke-width="8" />
+      </svg>
+    </div>
+  </div>
+  <!-- PRELOADER-END -->
+
+  <!-- HEADER-SECTION START -->
+  <header class="header fixed-top pe-0">
+    <div class="container">
+      <nav id="mainnav" class="d-flex align-items-center justify-content-between" aria-labelledby="mainnav">
+        <!-- HAMBURGER-MENU START -->
+        <div class="d-lg-none d-block">
+          <button class="btn-hamburger" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobilemenu"
+            aria-controls="mobilemenu">
+            <span class="icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2 5.995C2 5.445 2.446 5 2.995 5H11.005C11.2689 5 11.522 5.10483 11.7086 5.29143C11.8952 5.47803 12 5.73111 12 5.995C12 6.25889 11.8952 6.51197 11.7086 6.69857C11.522 6.88517 11.2689 6.99 11.005 6.99H2.995C2.73111 6.99 2.47803 6.88517 2.29143 6.69857C2.10483 6.51197 2 6.25889 2 5.995ZM2 12C2 11.45 2.446 11.005 2.995 11.005H21.005C21.2689 11.005 21.522 11.1098 21.7086 11.2964C21.8952 11.483 22 11.7361 22 12C22 12.2639 21.8952 12.517 21.7086 12.7036C21.522 12.8902 21.2689 12.995 21.005 12.995H2.995C2.73111 12.995 2.47803 12.8902 2.29143 12.7036C2.10483 12.517 2 12.2639 2 12ZM2.995 17.01C2.73111 17.01 2.47803 17.1148 2.29143 17.3014C2.10483 17.488 2 17.7411 2 18.005C2 18.2689 2.10483 18.522 2.29143 18.7086C2.47803 18.8952 2.73111 19 2.995 19H15.005C15.2689 19 15.522 18.8952 15.7086 18.7086C15.8952 18.522 16 18.2689 16 18.005C16 17.7411 15.8952 17.488 15.7086 17.3014C15.522 17.1148 15.2689 17.01 15.005 17.01H2.995Z"
+                  fill="#333333" />
+              </svg>
+            </span>
+          </button>
+        </div>
+
+        <!-- NAVBAR START -->
+        <div id="navbar-placeholder"></div>
+        <!-- NAVBAR END -->
+
+        <!-- LANGUAGE-CHANGE AND BOOK-AN-APPOINTMENT -->
+        <div class="d-flex align-items-center gap-4">
+          <!-- LANGUAGE-FORM -->
+          <div class="d-flex align-items-center gap-4">
+            <!-- LANGUAGE LINKS -->
+            <a href="tu_pagina_de_inicio.html" class="desktoplist-linkk">Iniciar Sesion</a>
+            <figure class="divider">
+              <svg width="2" height="20" viewBox="0 0 2 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.256004 25.38V0.925H1.738V25.38H0.256004Z" fill="black" />
+                <!-- Cambiado a "black" y el height a 26 -->
+              </svg>
+            </figure>
+            <a href="tu_pagina_de_creacion_de_cuenta.html" class="desktoplist-linkk">Crear Cuenta</a>
+            <!-- BOOK-AN-APPOINTMENT BUTTON -->
+            <div class="d-none d-lg-block fixed-button">
+              <a href="appointment.html" class="btn-book" id="open-calendar-button">Agendar una
+                visita!</a>
+            </div>
+          </div>
+      </nav>
+    </div>
+  </header>
+  <!-- HEADER-SECTION END -->
+
+  <!-- HOME-BANNER SECTION START -->
+  <section class="homebanner"
+    style="background: url(assets/images/Skinglow/portada-comun-abajo.png) no-repeat center center/cover;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="homebanner-content">
+            <div class="homebanner-info">
+              <h5 class="italic-text" data-aos="flip-left">Skin care - Botox</h5>
+              <h1 class="display-3" data-aos="zoom-out-down">
+                Te devolvemos tu<br>
+                <strong>amor propio</strong>
+              </h1>
+              <p class="italic-textt" data-aos="fade-up">
+                Facilitamos diferentes tipos de productos dermatologicos
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="overlay"></div>
+  </section>
+  <!-- HOME-BANNER SECTION END -->
+
+    <!-- MAIN-SECTION START -->
+    <main class="mainsection">
+      <!-- FACILITIES-SECTION START -->
+      <!-- <section class="facilities">
+        <div class="container">
+          <div class="row g-0">
+            <div class="col-lg-10 mx-lg-auto">
+              <div class="facilities-info">
+                <div class="facilities-header">
+                  <h2 class="display-5 fw-bold " data-aos="fade-up">
+                    Know What Facilities We Have
+                  </h2>
+                </div>
+
+                <div class="row g-4">
+                  <div class="col-lg-6">
+                    <div class="facilities-detail" data-aos="zoom-out-right">
+                      <p class="section-text">
+                        There are many variations of passages of Lorem Ipsum available,
+                        but the majority have suffered alteration in some form.
+                        There are many variations of passages of Lorem Ipsum available.
+                      </p>
+
+                      <ol class="facilitylist">
+                        <li class="facilitylist-item">
+                          Facial and skin care
+                        </li>
+
+                        <li class="facilitylist-item">
+                          Facial and skin care
+                        </li>
+
+                        <li class="facilitylist-item">
+                          Facial and skin care
+                        </li>
+                      </ol>
+
+                      <p class="section-text">
+                        There are many variations of passages of Lorem Ipsum available,
+                        but the majority have suffered alteration in some form.
+                      </p>
+
+                      <div class="appointmentinfo pb-4">
+                        <a href="appointment.html" class="btn-border">Book Appointment</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="offset-0 offset-lg-1 col-lg-5">
+                    <figure class="facility-thumbnail" data-aos="zoom-out-left">
+                      <img src="assets/images/home/facilities/facility.png" alt="facility-thumbnail">
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- FACILITIES-SECTION END -->
+
+      <!-- OUR-OFFER SECTION START -->
+      <!-- <section class="ourservice">
+        <div class="container">
+          <div class="row g-0">
+            <div class="col-lg-10 mx-lg-auto">
+              <div class="ourservice-content">
+                <div class="row">
+                  <div class="col-lg-8 mx-lg-auto">
+                    <div class="ourservice-header">
+                      <h5 class="italic-text" data-aos="zoom-out-down">Services</h5>
+                      <h2 class="display-5 fw-bold " data-aos="zoom-out-up">
+                        What We Offer
+                      </h2>
+                      <p class="section-text" data-aos="zoom-out-left">
+                        There are many variations of passages of Lorem Ipsum available,
+                        but the majority have suffered alteration in some form.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row gy-4 gx-0 g-md-4">
+                  <div class="col-md-4" data-aos="zoom-out">
+                    <a href="servicedetails.html" class="servicelink">
+                      <div class="card-service">
+                        <div class="card-service-header">
+                          <figure class="service-thumbnail">
+                            <img src="assets/images/services/service-1.png" alt="service-thumbnail">
+                          </figure>
+
+                          <span class="servicecount">01</span>
+                        </div>
+
+                        <div class="card-service-body">
+                          <h5 class="servicetitle">PRP Hair Treatment</h5>
+                          <p class="servicetext">
+                            There are many variations of passages of Lorem Ipsum available,
+                            but the majority have suffered alteration in some form.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-md-4" data-aos="zoom-out">
+                    <a href="servicedetails.html" class="servicelink">
+                      <div class="card-service">
+                        <div class="card-service-header">
+                          <figure class="service-thumbnail">
+                            <img src="assets/images/services/service-2.png" alt="service-thumbnail">
+                          </figure>
+
+                          <span class="servicecount">02</span>
+                        </div>
+
+                        <div class="card-service-body">
+                          <h5 class="servicetitle">Acne Scar Treatment</h5>
+                          <p class="servicetext">
+                            There are many variations of passages of Lorem Ipsum available,
+                            but the majority have suffered alteration in some form.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-md-4" data-aos="zoom-out">
+                    <a href="servicedetails.html" class="servicelink">
+                      <div class="card-service">
+                        <div class="card-service-header">
+                          <figure class="service-thumbnail">
+                            <img src="assets/images/services/service-3.png" alt="service-thumbnail">
+                          </figure>
+
+                          <span class="servicecount">03</span>
+                        </div>
+
+                        <div class="card-service-body">
+                          <h5 class="servicetitle">Best Chemical Peeling</h5>
+                          <p class="servicetext">
+                            There are many variations of passages of Lorem Ipsum available,
+                            but the majority have suffered alteration in some form.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="d-flex align-items-center justify-content-center" data-aos="zoom-in">
+                  <a href="services.html" class="btn-border">View all services</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- OUR-OFFER SECTION END -->
+
+      <!-- PRACTICE-SECTION START -->
+      <!-- <section class="ourpractice">
+        <div class="container">
+          <div class="row gy-4 g-lg-0">
+            <div class="col-lg-7 h-100">
+              <div class="ourpractice-details">
+                <div class="ourpractice-header">
+                  <h5 class="italic-text" data-aos="zoom-in-right">Our Practice</h5>
+                  <h2 class="display-5 fw-bold" data-aos="zoom-in-right">
+                    What Sets Us Apart
+                  </h2>
+                </div>
+
+                <div class="ourpractice-body">
+                  <p class="section-text" data-aos="zoom-in-right">
+                    Making the patient's dream come true is not just a job for us.
+                  </p>
+
+                  <p class="section-text" data-aos="zoom-in-right">
+                    There are many variations of passages of Lorem Ipsum available,
+                    but the majority have suffered alteration in some form.
+                    There are many variations of passages of Lorem Ipsum available,
+                    but the majority have suffered alteration in some form.
+                    Contrary to popular belief, Lorem Ipsum is not simply random text.
+                    It has roots in a piece of classical Latin literature from 45 BC,
+                    making it over 2000 years old. Richard McClintock,
+                    a Latin professor at Hampden-Sydney College in Virginia.
+                  </p>
+
+                  <p class="section-text" data-aos="zoom-in-right">
+                    There are many variations of passages of Lorem Ipsum available,
+                    but the majority have suffered alteration in some form.
+                    There are many variations of passages of Lorem Ipsum available.
+                  </p>
+
+                  <div class="sectionlink mx-auto m-lg-0" data-aos="zoom-in-right">
+                    <a href="services.html" class="btn-border">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-5 h-100">
+              <figure class="practice-thumbnail" data-aos="zoom-in-left">
+                <img src="assets/images/home/practice/practice-thumbnail.png" alt="practice-thumbnail">
+
+                <div class="thumboverlay">
+                  <a href="about.html" class="morelink">More about us</a>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- PRACTICE-SECTION END -->
+
+      <!-- EXPERIENCES-SECTION START -->
+      <!-- <section class="experiences">
+        <div class="container">
+          <div class="row g-0">
+            <div class="col-lg-10 mx-lg-auto">
+              <div class="experiences-content">
+                <div class="row">
+                  <div class="col-lg-10">
+                    <div class="experiences-header">
+                      <h5 class="italic-text" data-aos="zoom-in-down">What We Do</h5>
+                      <h2 class="display-5 fw-bold " data-aos="zoom-in-up">
+                        We’re Experienced in Making You Look Beautiful
+                      </h2>
+                      <p class="section-text" data-aos="zoom-in-right">
+                        There are many variations of passages of Lorem Ipsum available,
+                        but the majority have suffered alteration in some form.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="experiences-detail">
+                  <div class="row g-4">
+                    <div class="col-lg-5 mrgnbtm">
+                      <div class="experience-picture" data-aos="zoom-in-right">
+                        <figure class="experience-thumbnail">
+                          <img src="assets/images/home/experiences/experience-1.png" alt="experience-thumbnail">
+                        </figure>
+
+                        <span class="expicon">
+                          <svg width="147" height="147" viewBox="0 0 147 147" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect x="73.0336" y="0.787284" width="47.5448" height="47.5448"
+                              transform="rotate(43.3362 73.0336 0.787284)" stroke="#F26522" stroke-width="1.11403" />
+                            <path
+                              d="M107.597 40.6155L142.176 73.2423C124.032 92.0398 94.1746 92.9071 74.9703 75.1945L107.597 40.6155Z"
+                              stroke="#017F7E" stroke-width="1.11403" />
+                            <path
+                              d="M4.3962 73.5368C22.54 54.7393 52.3976 53.8721 71.6019 71.5847L38.9751 106.164L4.3962 73.5368Z"
+                              stroke="#017F7E" stroke-width="1.11403" />
+                            <rect x="71.5815" y="78.7855" width="47.5448" height="47.5448"
+                              transform="rotate(43.3362 71.5815 78.7855)" stroke="#F26522" stroke-width="1.11403" />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-7">
+                      <div class="experience-detail">
+                        <h4 class="title" data-aos="zoom-in-left">
+                          Healthier and radiant skin
+                        </h4>
+
+                        <p class="section-text" data-aos="zoom-in-left">
+                          Making the patient's dream come true is not just a job for us.
+                        </p>
+
+                        <p class="section-text" data-aos="zoom-in-left">
+                          There are many variations of passages of Lorem Ipsum available,
+                          but the majority have suffered alteration in some form.
+                          There are many variations of passages of Lorem Ipsum available.
+                        </p>
+
+                        <p class="section-text" data-aos="zoom-in-left">
+                          There are many variations of passages of Lorem Ipsum available,
+                          but the majority have suffered alteration in some form.
+                          There are many variations of passages of Lorem Ipsum available.
+                        </p>
+
+                        <div class="sectionlink mx-auto m-lg-0" data-aos="zoom-in-up">
+                          <a href="services.html" class="btn-border">Learn More</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row g-4">
+                    <div class="col-lg-7 mrgnbtm">
+                      <div class="experience-detail">
+                        <h4 class="title" data-aos="zoom-in-right">
+                          Healthier and radiant skin
+                        </h4>
+
+                        <p class="section-text" data-aos="zoom-in-right">
+                          Making the patient's dream come true is not just a job for us.
+                        </p>
+
+                        <p class="section-text" data-aos="zoom-in-right">
+                          There are many variations of passages of Lorem Ipsum available,
+                          but the majority have suffered alteration in some form.
+                          There are many variations of passages of Lorem Ipsum available.
+                        </p>
+
+                        <p class="section-text" data-aos="zoom-in-right">
+                          There are many variations of passages of Lorem Ipsum available,
+                          but the majority have suffered alteration in some form.
+                          There are many variations of passages of Lorem Ipsum available.
+                        </p>
+
+                        <div class="sectionlink mx-auto m-lg-0" data-aos="zoom-in-up">
+                          <a href="services.html" class="btn-border">Learn More</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-5">
+                      <div class="experience-picture evenpic">
+                        <figure class="experience-thumbnail eventhumb" data-aos="zoom-in-left">
+                          <img src="assets/images/home/experiences/experience-2.png" alt="experience-thumbnail">
+                        </figure>
+
+                        <span class="expicon">
+                          <svg width="147" height="147" viewBox="0 0 147 147" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect x="73.0336" y="0.787284" width="47.5448" height="47.5448"
+                              transform="rotate(43.3362 73.0336 0.787284)" stroke="#F26522" stroke-width="1.11403" />
+                            <path
+                              d="M107.597 40.6155L142.176 73.2423C124.032 92.0398 94.1746 92.9071 74.9703 75.1945L107.597 40.6155Z"
+                              stroke="#017F7E" stroke-width="1.11403" />
+                            <path
+                              d="M4.3962 73.5368C22.54 54.7393 52.3976 53.8721 71.6019 71.5847L38.9751 106.164L4.3962 73.5368Z"
+                              stroke="#017F7E" stroke-width="1.11403" />
+                            <rect x="71.5815" y="78.7855" width="47.5448" height="47.5448"
+                              transform="rotate(43.3362 71.5815 78.7855)" stroke="#F26522" stroke-width="1.11403" />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row g-4">
+                    <div class="col-lg-5 mrgnbtm">
+                      <div class="experience-picture">
+                        <figure class="experience-thumbnail" data-aos="zoom-in-right">
+                          <img src="assets/images/home/experiences/experience-3.png" alt="experience-thumbnail">
+                        </figure>
+
+                        <span class="expicon">
+                          <svg width="147" height="147" viewBox="0 0 147 147" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect x="73.0336" y="0.787284" width="47.5448" height="47.5448"
+                              transform="rotate(43.3362 73.0336 0.787284)" stroke="#F26522" stroke-width="1.11403" />
+                            <path
+                              d="M107.597 40.6155L142.176 73.2423C124.032 92.0398 94.1746 92.9071 74.9703 75.1945L107.597 40.6155Z"
+                              stroke="#017F7E" stroke-width="1.11403" />
+                            <path
+                              d="M4.3962 73.5368C22.54 54.7393 52.3976 53.8721 71.6019 71.5847L38.9751 106.164L4.3962 73.5368Z"
+                              stroke="#017F7E" stroke-width="1.11403" />
+                            <rect x="71.5815" y="78.7855" width="47.5448" height="47.5448"
+                              transform="rotate(43.3362 71.5815 78.7855)" stroke="#F26522" stroke-width="1.11403" />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-7">
+                      <div class="experience-detail">
+                        <h4 class="title" data-aos="zoom-in-left">
+                          Healthier and radiant skin
+                        </h4>
+
+                        <p class="section-text" data-aos="zoom-in-left">
+                          Making the patient's dream come true is not just a job for us.
+                        </p>
+
+                        <p class="section-text" data-aos="zoom-in-left">
+                          There are many variations of passages of Lorem Ipsum available,
+                          but the majority have suffered alteration in some form.
+                          There are many variations of passages of Lorem Ipsum available.
+                        </p>
+
+                        <p class="section-text" data-aos="zoom-in-left">
+                          There are many variations of passages of Lorem Ipsum available,
+                          but the majority have suffered alteration in some form.
+                          There are many variations of passages of Lorem Ipsum available.
+                        </p>
+
+                        <div class="sectionlink mx-auto m-lg-0" data-aos="zoom-in-up">
+                          <a href="services.html" class="btn-border">Learn More</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> --> 
+
+                <!-- BOOKING-APPOINTMENT START -->
+                <!-- <div class="bookappointment" data-aos="zoom-in-down">
+                  <div class="row">
+                    <div class="col-lg-8 mx-lg-auto">
+                      <div class="bookappointment-info">
+                        <div class="bookappointment-header">
+                          <h2 class="display-5 fw-bold" data-aos="zoom-in-up">
+                            Get Started Today!
+                          </h2>
+                          <p class="section-text" data-aos="zoom-in-up">
+                            There are many variations of passages of Lorem Ipsum available,
+                            but the majority have suffered alteration in some form.
+                          </p>
+                        </div>
+
+                        <div class="bookappointment-body" data-aos="zoom-in-up">
+                          <a href="appointment.html" class="btn-border">Book Appointment</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+                <!-- BOOK-APPOINTMENT END -->
+              <!-- </div>
+            </div>
+          </div>
+        </div>
+      </section>  -->
+      <!-- EXPERIENCES-SECTION END -->
+
+      <!-- GALLERY-SECTION START -->
+      <!-- <section class="ourgallery">
+        <div class="container">
+          <div class="row g-0">
+            <div class="col-lg-10 mx-lg-auto">
+              <div class="ourgallery-content">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <div class="ourgallery-header" data-aos="flip-down">
+                      <h5 class="italic-text">Portfolio</h5>
+                      <h2 class="display-5 fw-bold">
+                        Before and after gallery
+                      </h2>
+                      <p class="section-text">
+                        There are many variations of passages of Lorem Ipsum available,
+                        but the majority have suffered alteration in some form.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row g-4">
+                  <div class="col-md-6">
+                    <div class="card-gallery" data-aos="flip-left">
+                      <div class="card-gallery-header">
+                        <figure class="image-compare">
+                          <img src="assets/images/portfolios/portfolio-before-1.png" alt="before-image">
+                          <img src="assets/images/portfolios/portfolio-after-1.png" alt="after-image">
+                        </figure>
+                      </div>
+
+                      <div class="card-gallery-body">
+                        <a href="portfoliodetails.html" class="portfoliolink">
+                          <h5 class="gallerytitle">Acne Scar Treatment</h5>
+                        </a>
+                        <p class="gallerytext">
+                          There are many variations of passages of Lorem Ipsum available,
+                          but the majority have suffered alteration in some form.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="card-gallery" data-aos="flip-right">
+                      <div class="card-gallery-header">
+                        <figure class="image-compare">
+                          <img src="assets/images/portfolios/portfolio-before-2.jpg" alt="before-image">
+                          <img src="assets/images/portfolios/portfolio-after-2.jpg" alt="after-image">
+                        </figure>
+                      </div>
+
+                      <div class="card-gallery-body">
+                        <a href="portfoliodetails.html" class="portfoliolink">
+                          <h5 class="gallerytitle">Acne Scar Treatment</h5>
+                        </a>
+                        <p class="gallerytext">
+                          There are many variations of passages of Lorem Ipsum available,
+                          but the majority have suffered alteration in some form.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="d-flex align-items-center justify-content-center" data-aos="flip-up">
+                  <div class="sectionlink">
+                    <a href="portfoliolist.html" class="btn-border">View portfolio</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- GALLERY-SECTION END -->
+
+      <!-- AUTO-INCREMENT SECTION START -->
+      <!-- <div class="autoincrement" data-aos="fade-down">
+        <div class="container">
+          <div class="row g-0">
+            <div class="col-lg-10 mx-lg-auto">
+              <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                  <div class="card-counter">
+                    <div class="card-counter-header">
+                      <span class="countnumber display-2" data-targets="56">0</span>
+                      <span class="icon display-2">
+                        +
+                      </span>
+                    </div>
+
+                    <div class="card-counter-body">
+                      <span class="countertitle">Modern Equipment</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                  <div class="card-counter">
+                    <div class="card-counter-header">
+                      <span class="countnumber display-2" data-targets="127">0</span>
+                    </div>
+
+                    <div class="card-counter-body">
+                      <span class="countertitle">Happy Clients</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                  <div class="card-counter">
+                    <div class="card-counter-header">
+                      <span class="countnumber display-2" data-targets="100">0</span>
+                      <span class="icon display-2">
+                        +
+                      </span>
+                    </div>
+
+                    <div class="card-counter-body">
+                      <span class="countertitle">Positive feedbacks</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                  <div class="card-counter">
+                    <div class="card-counter-header">
+                      <span class="countnumber display-2" data-targets="8">0</span>
+                      <span class="icon display-2">
+                        +
+                      </span>
+                    </div>
+
+                    <div class="card-counter-body">
+                      <span class="countertitle">Years of experience</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!-- AUTO-INCREMENT SECTION END -->
+
+      <!-- DOCTORS-SECTION START -->
+      <!-- <section class="ourdoctors"
+        style="background: url(assets/images/home/ourdoctor/ourdoctor-bg.png) no-repeat center center/cover;">
+        <div class="container">
+          <div class="ourdoctors-content">
+            <div class="row">
+              <div class="offset-md-1 offset-0 col-md-8 col-lg-6">
+                <div class="ourdoctors-header" data-aos="flip-down">
+                  <h5 class="italic-text">Meet Our Doctor</h5>
+                  <h2 class="display-5 fw-bold ">
+                    Experience Excellence in Skincare and others
+                  </h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="row w-100">
+              <div class="col-12 position-relative">
+                <div class="row g-0">
+                  <div class="col-md-10 mx-md-auto">
+                    <div class="swiper doctorSlider overflow-visible" dir="rtl">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <div class="doctorinfo">
+                            <div class="thumbicon">
+                              <figure class="doctor-thumbnail">
+                                <img src="assets/images/home/ourdoctor/doctor-1.png" alt="doctor-thumbnail">
+                              </figure>
+
+                              <span class="icon">
+                                <svg width="235" height="236" viewBox="0 0 235 236" fill="none"
+                                  xmlns="http://www.w3.org/2000/svg">
+                                  <g opacity="0.4">
+                                    <rect x="116.977" y="1.41362" width="75.9331" height="75.9331"
+                                      transform="rotate(43.3362 116.977 1.41362)" stroke="white" stroke-width="2" />
+                                    <path
+                                      d="M227.56 117.31C198.559 147.272 150.919 148.655 120.228 120.427L172.335 65.2027L227.56 117.31Z"
+                                      stroke="white" stroke-width="2" />
+                                    <path
+                                      d="M7.19424 117.774C36.1951 87.812 83.8345 86.4282 114.526 114.656L62.4187 169.881L7.19424 117.774Z"
+                                      stroke="white" stroke-width="2" />
+                                    <rect x="114.651" y="126.337" width="75.9331" height="75.9331"
+                                      transform="rotate(43.3362 114.651 126.337)" stroke="white" stroke-width="2" />
+                                  </g>
+                                </svg>
+                              </span>
+                            </div>
+
+                            <div class="detail">
+                              <h5 class="name">Dr. Courtney Dunn</h5>
+                              <p class="section-text">
+                                There are many variations of passages of Lorem Ipsum available,
+                                but the majority have suffered alteration in some form.
+                                There are many variations of passages of Lorem Ipsum available.
+                              </p>
+
+                              <div class="learnmorebox">
+                                <a href="doctordetails.html" class="btn-book">Learn More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                          <div class="doctorinfo">
+                            <div class="thumbicon">
+                              <figure class="doctor-thumbnail">
+                                <img src="assets/images/home/ourdoctor/doctor-1.png" alt="doctor-thumbnail">
+                              </figure>
+
+                              <span class="icon">
+                                <svg width="235" height="236" viewBox="0 0 235 236" fill="none"
+                                  xmlns="http://www.w3.org/2000/svg">
+                                  <g opacity="0.4">
+                                    <rect x="116.977" y="1.41362" width="75.9331" height="75.9331"
+                                      transform="rotate(43.3362 116.977 1.41362)" stroke="white" stroke-width="2" />
+                                    <path
+                                      d="M227.56 117.31C198.559 147.272 150.919 148.655 120.228 120.427L172.335 65.2027L227.56 117.31Z"
+                                      stroke="white" stroke-width="2" />
+                                    <path
+                                      d="M7.19424 117.774C36.1951 87.812 83.8345 86.4282 114.526 114.656L62.4187 169.881L7.19424 117.774Z"
+                                      stroke="white" stroke-width="2" />
+                                    <rect x="114.651" y="126.337" width="75.9331" height="75.9331"
+                                      transform="rotate(43.3362 114.651 126.337)" stroke="white" stroke-width="2" />
+                                  </g>
+                                </svg>
+                              </span>
+                            </div>
+
+                            <div class="detail">
+                              <h5 class="name">Dr. Courtney Dunn</h5>
+                              <p class="section-text">
+                                There are many variations of passages of Lorem Ipsum available,
+                                but the majority have suffered alteration in some form.
+                                There are many variations of passages of Lorem Ipsum available.
+                              </p>
+
+                              <div class="learnmorebox">
+                                <a href="doctordetails.html" class="btn-book">Learn More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                          <div class="doctorinfo">
+                            <div class="thumbicon">
+                              <figure class="doctor-thumbnail">
+                                <img src="assets/images/home/ourdoctor/doctor-1.png" alt="doctor-thumbnail">
+                              </figure>
+
+                              <span class="icon">
+                                <svg width="235" height="236" viewBox="0 0 235 236" fill="none"
+                                  xmlns="http://www.w3.org/2000/svg">
+                                  <g opacity="0.4">
+                                    <rect x="116.977" y="1.41362" width="75.9331" height="75.9331"
+                                      transform="rotate(43.3362 116.977 1.41362)" stroke="white" stroke-width="2" />
+                                    <path
+                                      d="M227.56 117.31C198.559 147.272 150.919 148.655 120.228 120.427L172.335 65.2027L227.56 117.31Z"
+                                      stroke="white" stroke-width="2" />
+                                    <path
+                                      d="M7.19424 117.774C36.1951 87.812 83.8345 86.4282 114.526 114.656L62.4187 169.881L7.19424 117.774Z"
+                                      stroke="white" stroke-width="2" />
+                                    <rect x="114.651" y="126.337" width="75.9331" height="75.9331"
+                                      transform="rotate(43.3362 114.651 126.337)" stroke="white" stroke-width="2" />
+                                  </g>
+                                </svg>
+                              </span>
+                            </div>
+
+                            <div class="detail">
+                              <h5 class="name">Dr. Courtney Dunn</h5>
+                              <p class="section-text">
+                                There are many variations of passages of Lorem Ipsum available,
+                                but the majority have suffered alteration in some form.
+                                There are many variations of passages of Lorem Ipsum available.
+                              </p>
+
+                              <div class="learnmorebox">
+                                <a href="doctordetails.html" class="btn-book">Learn More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                          <div class="doctorinfo">
+                            <div class="thumbicon">
+                              <figure class="doctor-thumbnail">
+                                <img src="assets/images/home/ourdoctor/doctor-1.png" alt="doctor-thumbnail">
+                              </figure>
+
+                              <span class="icon">
+                                <svg width="235" height="236" viewBox="0 0 235 236" fill="none"
+                                  xmlns="http://www.w3.org/2000/svg">
+                                  <g opacity="0.4">
+                                    <rect x="116.977" y="1.41362" width="75.9331" height="75.9331"
+                                      transform="rotate(43.3362 116.977 1.41362)" stroke="white" stroke-width="2" />
+                                    <path
+                                      d="M227.56 117.31C198.559 147.272 150.919 148.655 120.228 120.427L172.335 65.2027L227.56 117.31Z"
+                                      stroke="white" stroke-width="2" />
+                                    <path
+                                      d="M7.19424 117.774C36.1951 87.812 83.8345 86.4282 114.526 114.656L62.4187 169.881L7.19424 117.774Z"
+                                      stroke="white" stroke-width="2" />
+                                    <rect x="114.651" y="126.337" width="75.9331" height="75.9331"
+                                      transform="rotate(43.3362 114.651 126.337)" stroke="white" stroke-width="2" />
+                                  </g>
+                                </svg>
+                              </span>
+                            </div>
+
+                            <div class="detail">
+                              <h5 class="name">Dr. Courtney Dunn</h5>
+                              <p class="section-text">
+                                There are many variations of passages of Lorem Ipsum available,
+                                but the majority have suffered alteration in some form.
+                                There are many variations of passages of Lorem Ipsum available.
+                              </p>
+
+                              <div class="learnmorebox">
+                                <a href="doctordetails.html" class="btn-book">Learn More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                          <div class="doctorinfo">
+                            <div class="thumbicon">
+                              <figure class="doctor-thumbnail">
+                                <img src="assets/images/home/ourdoctor/doctor-1.png" alt="doctor-thumbnail">
+                              </figure>
+
+                              <span class="icon">
+                                <svg width="235" height="236" viewBox="0 0 235 236" fill="none"
+                                  xmlns="http://www.w3.org/2000/svg">
+                                  <g opacity="0.4">
+                                    <rect x="116.977" y="1.41362" width="75.9331" height="75.9331"
+                                      transform="rotate(43.3362 116.977 1.41362)" stroke="white" stroke-width="2" />
+                                    <path
+                                      d="M227.56 117.31C198.559 147.272 150.919 148.655 120.228 120.427L172.335 65.2027L227.56 117.31Z"
+                                      stroke="white" stroke-width="2" />
+                                    <path
+                                      d="M7.19424 117.774C36.1951 87.812 83.8345 86.4282 114.526 114.656L62.4187 169.881L7.19424 117.774Z"
+                                      stroke="white" stroke-width="2" />
+                                    <rect x="114.651" y="126.337" width="75.9331" height="75.9331"
+                                      transform="rotate(43.3362 114.651 126.337)" stroke="white" stroke-width="2" />
+                                  </g>
+                                </svg>
+                              </span>
+                            </div>
+
+                            <div class="detail">
+                              <h5 class="name">Dr. Courtney Dunn</h5>
+                              <p class="section-text">
+                                There are many variations of passages of Lorem Ipsum available,
+                                but the majority have suffered alteration in some form.
+                                There are many variations of passages of Lorem Ipsum available.
+                              </p>
+
+                              <div class="learnmorebox">
+                                <a href="doctordetails.html" class="btn-book">Learn More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                          <div class="doctorinfo">
+                            <div class="thumbicon">
+                              <figure class="doctor-thumbnail">
+                                <img src="assets/images/home/ourdoctor/doctor-1.png" alt="doctor-thumbnail">
+                              </figure>
+
+                              <span class="icon">
+                                <svg width="235" height="236" viewBox="0 0 235 236" fill="none"
+                                  xmlns="http://www.w3.org/2000/svg">
+                                  <g opacity="0.4">
+                                    <rect x="116.977" y="1.41362" width="75.9331" height="75.9331"
+                                      transform="rotate(43.3362 116.977 1.41362)" stroke="white" stroke-width="2" />
+                                    <path
+                                      d="M227.56 117.31C198.559 147.272 150.919 148.655 120.228 120.427L172.335 65.2027L227.56 117.31Z"
+                                      stroke="white" stroke-width="2" />
+                                    <path
+                                      d="M7.19424 117.774C36.1951 87.812 83.8345 86.4282 114.526 114.656L62.4187 169.881L7.19424 117.774Z"
+                                      stroke="white" stroke-width="2" />
+                                    <rect x="114.651" y="126.337" width="75.9331" height="75.9331"
+                                      transform="rotate(43.3362 114.651 126.337)" stroke="white" stroke-width="2" />
+                                  </g>
+                                </svg>
+                              </span>
+                            </div>
+
+                            <div class="detail">
+                              <h5 class="name">Dr. Courtney Dunn</h5>
+                              <p class="section-text">
+                                There are many variations of passages of Lorem Ipsum available,
+                                but the majority have suffered alteration in some form.
+                                There are many variations of passages of Lorem Ipsum available.
+                              </p>
+
+                              <div class="learnmorebox">
+                                <a href="doctordetails.html" class="btn-book">Learn More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="sliderbuttons">
+                  <button type="button" class="swiper-button-next">
+                    <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M22.875 45.75L38.125 30.5L22.875 15.25" stroke="white" stroke-width="2"
+                        stroke-linecap="square" />
+                    </svg>
+                  </button>
+
+                  <button type="button" class="swiper-button-prev">
+                    <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M38.125 45.75L22.875 30.5L38.125 15.25" stroke="white" stroke-width="2"
+                        stroke-linecap="square" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- DOCTORS-SECTION END -->
+
+      <!-- OUR-PARTNER SECTION START -->
+      <!-- <section class="ourpartner">
+        <div class="container">
+          <div class="ourpartner-content">
+            <div class="row">
+              <div class="col-lg-6 mx-lg-auto">
+                <div class="ourpartner-header">
+                  <h5 class="italic-text" data-aos="fade-down">Our Partner's</h5>
+                  <p class="section-text" data-aos="fade-up">
+                    Making the patient's dream come true is not just a job for us.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row g-4" data-aos="zoom-out-down">
+              <div class="col-md-3 col-6">
+                <figure class="partner-thumb">
+                  <img src="assets/images/home/partners/partner-1.png" alt="partner-thumbnail">
+                </figure>
+              </div>
+
+              <div class="col-md-3 col-6">
+                <figure class="partner-thumb">
+                  <img src="assets/images/home/partners/partner-2.png" alt="partner-thumbnail">
+                </figure>
+              </div>
+
+              <div class="col-md-3 col-6">
+                <figure class="partner-thumb">
+                  <img src="assets/images/home/partners/partner-1.png" alt="partner-thumbnail">
+                </figure>
+              </div>
+
+              <div class="col-md-3 col-6">
+                <figure class="partner-thumb">
+                  <img src="assets/images/home/partners/partner-2.png" alt="partner-thumbnail">
+                </figure>
+              </div>
+
+              <div class="col-md-3 col-6">
+                <figure class="partner-thumb">
+                  <img src="assets/images/home/partners/partner-1.png" alt="partner-thumbnail">
+                </figure>
+              </div>
+
+              <div class="col-md-3 col-6">
+                <figure class="partner-thumb">
+                  <img src="assets/images/home/partners/partner-2.png" alt="partner-thumbnail">
+                </figure>
+              </div>
+
+              <div class="col-md-3 col-6">
+                <figure class="partner-thumb">
+                  <img src="assets/images/home/partners/partner-1.png" alt="partner-thumbnail">
+                </figure>
+              </div>
+
+              <div class="col-md-3 col-6">
+                <figure class="partner-thumb">
+                  <img src="assets/images/home/partners/partner-2.png" alt="partner-thumbnail">
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- OUR-PARTNER SECTION END -->
+
+      <!-- BLOG-SECTION START -->
+      <!-- <section class="ratingsec">
+        <div class="container">
+          <div class="ratingsec-content">
+            <div class="row">
+              <div class="col-lg-6 mx-lg-auto">
+                <div class="ratingsec-header">
+                  <h5 class="italic-text" data-aos="zoom-in-up">Patient Reviews</h5>
+                  <h2 class="display-5 fw-bold" data-aos="zoom-in-down">
+                    Our 5-Star Experience
+                  </h2>
+                  <p class="section-text" data-aos="zoom-in-up">
+                    There are many variations of passages of Lorem Ipsum available,
+                    but the majority have suffered alteration in some form.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row gy-4 gx-0 g-md-4 w-100">
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="cardreview" data-aos="flip-up">
+                  <ul class="reviewlist">
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+                  </ul>
+
+                  <div class="reviewinfo">
+                    <p class="section-text">
+                      Dr. Sarment was instrumental in making my children's braces experience.
+                      She is fun, caring and very open. I would recommend Dr. Sarment to all
+                      my friends! The staff creates a welcoming environment, everyone is
+                      super sweet! Your needs are always met and your questions always answered.
+                      Always a pleasure going into my appointments because I know I am in good hands!
+                    </p>
+                  </div>
+
+                  <div class="authorinfo">
+                    <figure class="author-thumbnail">
+                      <img src="assets/images/authors/avatar-1.png" alt="author-thumbnail">
+                    </figure>
+                    <h5 class="authorname">Olivia Davis</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="cardreview" data-aos="flip-up">
+                  <ul class="reviewlist">
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+                  </ul>
+
+                  <div class="reviewinfo">
+                    <p class="section-text">
+                      Dr. Sarment was instrumental in making my children's braces experience.
+                      She is fun, caring and very open. I would recommend Dr. Sarment to all
+                      my friends! The staff creates a welcoming environment, everyone is
+                      super sweet! Your needs are always met and your questions always answered.
+                      Always a pleasure going into my appointments because I know I am in good hands!
+                    </p>
+                  </div>
+
+                  <div class="authorinfo">
+                    <figure class="author-thumbnail">
+                      <img src="assets/images/authors/avatar-2.png" alt="author-thumbnail">
+                    </figure>
+                    <h5 class="authorname">Ava Rodriguez</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="cardreview" data-aos="flip-up">
+                  <ul class="reviewlist">
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+                  </ul>
+
+                  <div class="reviewinfo">
+                    <p class="section-text">
+                      Dr. Sarment was instrumental in making my children's braces experience.
+                      She is fun, caring and very open. I would recommend Dr. Sarment to all
+                      my friends! The staff creates a welcoming environment, everyone is
+                      super sweet! Your needs are always met and your questions always answered.
+                      Always a pleasure going into my appointments because I know I am in good hands!
+                    </p>
+                  </div>
+
+                  <div class="authorinfo">
+                    <figure class="author-thumbnail">
+                      <img src="assets/images/authors/avatar-3.png" alt="author-thumbnail">
+                    </figure>
+                    <h5 class="authorname">Mia Hernandez</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="cardreview" data-aos="flip-up">
+                  <ul class="reviewlist">
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+                  </ul>
+
+                  <div class="reviewinfo">
+                    <p class="section-text">
+                      What truly impressed me was the personalized approach they took towards my treatment.
+                      Each step of the process was tailored to my specific needs and concerns. Dr. Smith
+                      and the team patiently answered all my questions, alleviating any doubts or anxieties
+                      I had. They were dedicated to ensuring my comfort and satisfaction at all times.
+                    </p>
+
+                    <p class="section-text">
+                      The results I achieved with Dr+ surpassed my expectations.
+                      Not only did they correct my skin misalignment and improve my glow,
+                      but they also provided me with a newfound confidence in my face.
+                      The transformation was truly life-changing, and I am immensely
+                      grateful for their expertise and commitment to excellence.
+                    </p>
+                  </div>
+
+                  <div class="authorinfo">
+                    <figure class="author-thumbnail">
+                      <img src="assets/images/authors/avatar-4.png" alt="author-thumbnail">
+                    </figure>
+                    <h5 class="authorname">Mason Wilson</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="cardreview" data-aos="flip-up">
+                  <ul class="reviewlist">
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+                  </ul>
+
+                  <div class="reviewinfo">
+                    <p class="section-text">
+                      I recently had the privilege of undergoing orthodontic treatment at Dr+,
+                      and I cannot express enough how satisfied I am with the exceptional
+                      service I received. From the moment I walked through their doors,
+                      I was greeted by a warm and friendly staff who made me feel comfortable
+                      and valued as a patient.
+                    </p>
+
+                    <p class="section-text">
+                      First and foremost, the expertise and professionalism of the orthodontists
+                      at Dr+ were truly remarkable. Dr. Smith, my dermatologist, took the time
+                      to thoroughly assess my skin condition and carefully explain the treatment options.
+                    </p>
+                  </div>
+
+                  <div class="authorinfo">
+                    <figure class="author-thumbnail">
+                      <img src="assets/images/authors/avatar-2.png" alt="author-thumbnail">
+                    </figure>
+                    <h5 class="authorname">Sophia Martinez</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="cardreview" data-aos="flip-up">
+                  <ul class="reviewlist">
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+                  </ul>
+
+                  <div class="reviewinfo">
+                    <p class="section-text">
+                      Dr. Sarment was instrumental in making my children's braces experience.
+                      She is fun, caring and very open. I would recommend Dr. Sarment to all
+                      my friends! The staff creates a welcoming environment, everyone is
+                      super sweet! Your needs are always met and your questions always answered.
+                      Always a pleasure going into my appointments because I know I am in good hands!
+                    </p>
+                  </div>
+
+                  <div class="authorinfo">
+                    <figure class="author-thumbnail">
+                      <img src="assets/images/authors/avatar-5.png" alt="author-thumbnail">
+                    </figure>
+                    <h5 class="authorname">Ethan Johnson</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="cardreview" data-aos="flip-up">
+                  <ul class="reviewlist">
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+                  </ul>
+
+                  <div class="reviewinfo">
+                    <p class="section-text">
+                      I recently had the privilege of undergoing orthodontic treatment at Dr+,
+                      and I cannot express enough how satisfied I am with the exceptional
+                      service I received. From the moment I walked through their doors,
+                      I was greeted by a warm and friendly staff who made me feel comfortable
+                      and valued as a patient.
+                    </p>
+
+                    <p class="section-text">
+                      First and foremost, the expertise and professionalism of the orthodontists
+                      at Dr+ were truly remarkable. Dr. Smith, my dermatologist, took the time
+                      to thoroughly assess my skin condition and carefully explain the treatment options.
+                    </p>
+                  </div>
+
+                  <div class="authorinfo">
+                    <figure class="author-thumbnail">
+                      <img src="assets/images/authors/avatar-2.png" alt="author-thumbnail">
+                    </figure>
+                    <h5 class="authorname">Sophia Martinez</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="cardreview" data-aos="flip-up">
+                  <ul class="reviewlist">
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+                  </ul>
+
+                  <div class="reviewinfo">
+                    <p class="section-text">
+                      What truly impressed me was the personalized approach they took towards my treatment.
+                      Each step of the process was tailored to my specific needs and concerns. Dr. Smith
+                      and the team patiently answered all my questions, alleviating any doubts or anxieties
+                      I had. They were dedicated to ensuring my comfort and satisfaction at all times.
+                    </p>
+
+                    <p class="section-text">
+                      The results I achieved with Dr+ surpassed my expectations.
+                      Not only did they correct my skin misalignment and improve my glow,
+                      but they also provided me with a newfound confidence in my face.
+                      The transformation was truly life-changing, and I am immensely
+                      grateful for their expertise and commitment to excellence.
+                    </p>
+                  </div>
+
+                  <div class="authorinfo">
+                    <figure class="author-thumbnail">
+                      <img src="assets/images/authors/avatar-4.png" alt="author-thumbnail">
+                    </figure>
+                    <h5 class="authorname">Mason Wilson</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="cardreview" data-aos="flip-up">
+                  <ul class="reviewlist">
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+
+                    <li class="reviewlist-item">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                          fill="#F26522" />
+                      </svg>
+                    </li>
+                  </ul>
+
+                  <div class="reviewinfo">
+                    <p class="section-text">
+                      I recently had the privilege of undergoing orthodontic treatment at Dr+,
+                      and I cannot express enough how satisfied I am with the exceptional
+                      service I received. From the moment I walked through their doors,
+                      I was greeted by a warm and friendly staff who made me feel comfortable
+                      and valued as a patient.
+                    </p>
+
+                    <p class="section-text">
+                      First and foremost, the expertise and professionalism of the orthodontists
+                      at Dr+ were truly remarkable. Dr. Smith, my dermatologist, took the time
+                      to thoroughly assess my skin condition and carefully explain the treatment options.
+                    </p>
+                  </div>
+
+                  <div class="authorinfo">
+                    <figure class="author-thumbnail">
+                      <img src="assets/images/authors/avatar-2.png" alt="author-thumbnail">
+                    </figure>
+                    <h5 class="authorname">Sophia Martinez</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-center" data-aos="flip-left">
+              <div class="sectlink">
+                <a href="reviews.html" class="btn-border">Read More Client Review</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- BLOG-SECTION END -->
+
+      <!-- BLOG-SECTION START -->
+      <!-- <section class="blogsec">
+        <div class="container">
+          <div class="blogsec-content">
+            <div class="row">
+              <div class="col-lg-6 mx-lg-auto">
+                <div class="blogsec-header">
+                  <h5 class="italic-text" data-aos="fade-down">Our Blogs</h5>
+                  <h2 class="display-5 fw-bold" data-aos="fade-up">
+                    Latest articles
+                  </h2>
+                  <p class="section-text" data-aos="fade-left">
+                    There are many variations of passages of Lorem Ipsum available,
+                    but the majority have suffered alteration in some form.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row gy-4 gx-0 g-sm-4 w-100">
+              <div class="col-lg-3 col-sm-6 col-12" data-aos="zoom-in">
+                <a href="blogdetails.html" class="bloglink">
+                  <div class="cardblog">
+                    <div class="cardblog-header">
+                      <figure class="cardblog-thumbnail">
+                        <img src="assets/images/blogs/blog-1.png" alt="blog-thumbnail">
+                      </figure>
+                    </div>
+
+                    <div class="cardblog-body">
+                      <span class="blogcategory">Health</span>
+                      <h5 class="blogtitle">
+                        The best way to apply gel patches and masks.
+                      </h5>
+                      <p class="publishdate">July 31, 2023</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-lg-3 col-sm-6 col-12" data-aos="zoom-in">
+                <a href="blogdetails.html" class="bloglink">
+                  <div class="cardblog">
+                    <div class="cardblog-header">
+                      <figure class="cardblog-thumbnail">
+                        <img src="assets/images/blogs/blog-2.png" alt="blog-thumbnail">
+                      </figure>
+                    </div>
+
+                    <div class="cardblog-body">
+                      <span class="blogcategory">Skincare . Face treatment</span>
+                      <h5 class="blogtitle">
+                        Treating excessive redness of your face.
+                      </h5>
+                      <p class="publishdate">July 31, 2023</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-lg-3 col-sm-6 col-12" data-aos="zoom-in">
+                <a href="blogdetails.html" class="bloglink">
+                  <div class="cardblog">
+                    <div class="cardblog-header">
+                      <figure class="cardblog-thumbnail">
+                        <img src="assets/images/blogs/blog-3.png" alt="blog-thumbnail">
+                      </figure>
+                    </div>
+
+                    <div class="cardblog-body">
+                      <span class="blogcategory">Dermatology . Treatment</span>
+                      <h5 class="blogtitle">
+                        What’s the main challenge for a dermatologist?
+                      </h5>
+                      <p class="publishdate">July 31, 2023</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-lg-3 col-sm-6 col-12" data-aos="zoom-in">
+                <a href="blogdetails.html" class="bloglink">
+                  <div class="cardblog">
+                    <div class="cardblog-header">
+                      <figure class="cardblog-thumbnail">
+                        <img src="assets/images/blogs/blog-4.png" alt="blog-thumbnail">
+                      </figure>
+                    </div>
+
+                    <div class="cardblog-body">
+                      <span class="blogcategory">Skincare . Beauty routine</span>
+                      <h5 class="blogtitle">
+                        A few positive ways to look at skin care routine
+                      </h5>
+                      <p class="publishdate">July 31, 2023</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-center">
+              <div class="sectionlink" data-aos="flip-down">
+                <a href="bloglist.html" class="btn-border">Read more blogs</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- BLOG-SECTION END -->
+
+      <!-- BODY-ICON -->
+      <!-- <figure class="bodyicon">
+        <svg width="185" height="372" viewBox="0 0 185 372" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="-1.47127" y="1.7669" width="121.852" height="121.852" transform="rotate(43.3362 -1.47127 1.7669)"
+            stroke="#F26522" stroke-width="1.11403" />
+          <path d="M85.8744 102.416L174.501 186.039C128.191 234.684 51.3065 236.917 2.25095 191.042L85.8744 102.416Z"
+            stroke="#017F7E" stroke-width="1.11403" />
+          <rect x="-5.14021" y="198.876" width="121.852" height="121.852" transform="rotate(43.3362 -5.14021 198.876)"
+            stroke="#F26522" stroke-width="1.11403" />
+        </svg>
+      </figure>
+    </main> -->
+    <!-- MAIN-SECTION END -->
+
+  <!-- FOOTER-SECTION START -->
+  <div id="footer-placeholder"></div>
+  <!-- FOOTER-SECTION END -->
+
+  <!-- NAVBAR-JS -->
+  <script src="assets/js/navbar.js"></script>
+  <!-- FOOTER-JS -->
+  <script src="assets/js/footer.js"></script>
+  <!-- BOOTSTRAP-JS -->
+  <script src="assets/js/bootsrap/bootstrap.bundle.min.js"></script>
+  <!-- TOOLTIP-JS -->
+  <script src="assets/js/tooltip/tooltip.js"></script>
+  <!-- PRELOADER-JS -->
+  <script src="assets/js/loader/loader.js"></script>
+  <!-- COPYRIGHT-JS -->
+  <script src="assets/js/copyright/copyright.js"></script>
+  <!-- IMAGE-COMPARE-JS -->
+  <script src="assets/js/image-compare/image-compare-viewer.min.js"></script>
+  <script src="assets/js/image-compare/homegallery.js"></script>
+  <!-- AUTO-INCREMENT-JS -->
+  <script src="assets/js/autoincrement/increment.js"></script>
+  <!-- SWIPER-JS -->
+  <script src="assets/js/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/home-slider/doctorslider.js"></script>
+  <!-- AOS-JS -->
+  <script src="assets/js/aos/aos.js"></script>
+  <script src="assets/js/aos/scrollanimations.js"></script>
+</body>
+
+</html>

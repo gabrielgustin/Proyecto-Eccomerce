@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <!-- FAVICON-ICON -->
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+    <!-- ANIMATE-CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- SWIPER-CSS -->
+    <link rel="stylesheet" href="assets/css/swiper/swiper-bundle.min.css">
+    <!-- IMAGE-COMPARE-CSS -->
+    <link rel="stylesheet" href="assets/css/image-compare/image-compare-viewer.min.css">
+    <!-- BACK-TO-TOP-CSS -->
+    <link rel="stylesheet" href="assets/css/back-top/back-top.css">
+    <!-- AOS-CSS -->
+    <link rel="stylesheet" href="assets/css/aos/aos.css">
+    <!-- BOOTSTRAP-CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+    <!-- CUSTOM-CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- JQUERY-JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- MOBILE-MENU START -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="mobilemenu" aria-labelledby="mobilemenu">
+        <div class="offcanvas-header">
+          <!-- BRAND-LOGO START -->
+          <a href="index.html" class="brandlogo">
+            <img src="assets/images/logo/logo.svg" alt="brand-logo">
+          </a>
+          <!-- BRAND-LOGO END -->
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg"
+              viewBox="0 0 16 16">
+              <path
+                d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+            </svg>
+          </button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="mobilelist">
+            <li class="mobilelist-item">
+              <a href="index.html" class="mobilelist-link">
+                Inicio
+              </a>
+            </li>
+            <!-- SERVICES -->
+            <li class="mobilelist-item">
+              <a href="products.html" class="mobilelist-link">
+                Productos
+              </a>
+            </li>
+            <li class="accordion" id="accordionDropdown">
+              <!-- ABOUT-US -->
+              <div class="accordion-item bg-transparent">
+                <div class="accordion-header">
+                  <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseDropdown-1" aria-expanded="false" aria-controls="collapseDropdown-1">
+                    Sobre Nosotros
+                  </button>
+                </div>
+                <div id="collapseDropdown-1" class="accordion-collapse collapse" data-bs-parent="#accordionDropdown">
+                  <div class="accordion-body bg-transparent p-0">
+                    <ul class="dropdownlist">
+                      <li class="dropdownlist-item">
+                        <a href="Questions.html" class="dropdownlist-link">
+                          Preguntas Frecuentes
+                        </a>
+                      </li>
+                      <li class="dropdownlist-item">
+                        <a href="about.html" class="dropdownlist-link">
+                          Quienes somos?
+                        </a>
+                      </li>
+                      <li class="dropdownlist-item">
+                        <a href="reviews.html" class="dropdownlist-link">
+                          Testimonios
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <li class="mobilelist-item">
+                <a href="contact.html" class="mobilelist-link">
+                  Estudios
+                </a>
+              </li>
+            <li class="mobilelist-item">
+              <a href="contact.html" class="mobilelist-link">
+                Contacto
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- MOBILE-MENU END -->
+
+      <!-- -------------------------------------------------------------------------------------------- -->
+
+      <!-- LOGO-DESKTOPLIST START -->
+      <div class="d-flex align-items center gap-5">
+        <!-- BRAND-LOGO START -->
+        <a href="index.html" class="brandlogo">
+          <img src="assets/images/logo/logo.svg" alt="brand-logo">
+        </a>
+        <!-- BRAND-LOGO END -->
+
+      <!-- -------------------------------------------------------------------------------------------- -->
+
+        <!-- DESKTOP-MENU START-->
+        <div class="d-none d-lg-block">
+          <ul class="desktoplist">
+            <li class="desktoplist-item">
+              <a href="index.html" class="desktoplist-link">
+                Inicio
+              </a>
+            </li>
+            <!-- SERVICES -->
+            <li class="desktoplist-item mydropdown">
+              <a href="productsGeneral.html" class="desktoplist-link">
+                Productos
+              </a>
+              <div class="dropdownmenu">
+                <ul class="dropdownlist">
+                  <li class="dropdownlist-item">
+                    <a href="productsSkinglow.html" class="dropdownlist-link">
+                      Skinglow®
+                    </a>
+                  </li>
+                  <li class="dropdownlist-item">
+                    <a href="" class="dropdownlist-link">
+                      Juvederm®
+                    </a>
+                  </li>
+                  <li class="dropdownlist-item">
+                    <a href="" class="dropdownlist-link">
+                      Restylane®
+                    </a>
+                  </li>
+                  <li class="dropdownlist-item">
+                    <a href="" class="dropdownlist-link">
+                      Fillmed®
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <!-- ABOUT-US -->
+            <li class="desktoplist-item mydropdown">
+              <a href="#" class="desktoplist-link">
+                Informacion
+              </a>
+              <div class="dropdownmenu">
+                <ul class="dropdownlist">
+                  <li class="dropdownlist-item">
+                    <a href="reviews.html" class="dropdownlist-link">
+                       Testimonios
+                    </a>
+                  </li>
+                  <li class="dropdownlist-item">
+                    <a href="questions.html" class="dropdownlist-link">
+                      Preguntas
+                    </a>
+                  </li>
+                  <li class="dropdownlist-item">
+                    <a href="reviews.html" class="dropdownlist-link">
+                      Estudios
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="desktoplist-item">
+              <a href="contact.html" class="desktoplist-link">
+                Contacto
+              </a>
+            </li>
+          </ul>
+          <!-- DESKTOP-LIST END -->
+        </div>
+      </div>
+      <!-- LOGO-DESKTOPLIST END -->
+
+    <!-- FOOTER-JS -->
+    <script src="assets/js/footer.js"></script>
+    <!-- BOOTSTRAP-JS -->
+    <script src="assets/js/bootsrap/bootstrap.bundle.min.js"></script>
+    <!-- TOOLTIP-JS -->
+    <script src="assets/js/tooltip/tooltip.js"></script>
+    <!-- PRELOADER-JS -->
+    <script src="assets/js/loader/loader.js"></script>
+    <!-- COPYRIGHT-JS -->
+    <script src="assets/js/copyright/copyright.js"></script>
+    <!-- IMAGE-COMPARE-JS -->
+    <script src="assets/js/image-compare/image-compare-viewer.min.js"></script>
+    <script src="assets/js/image-compare/homegallery.js"></script>
+    <!-- AUTO-INCREMENT-JS -->
+    <script src="assets/js/autoincrement/increment.js"></script>
+    <!-- SWIPER-JS -->
+    <script src="assets/js/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/home-slider/doctorslider.js"></script>
+    <!-- AOS-JS -->
+    <script src="assets/js/aos/aos.js"></script>
+    <script src="assets/js/aos/scrollanimations.js"></script>
+</body>
+</html>

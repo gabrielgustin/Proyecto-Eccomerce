@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dermatology - Responsive HTML Template | Reviews</title>
+  <!-- FAVICON-ICON -->
+  <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+  <!-- BACK-TO-TOP-CSS -->
+  <link rel="stylesheet" href="assets/css/back-top/back-top.css">
+  <!-- AOS-CSS -->
+  <link rel="stylesheet" href="assets/css/aos/aos.css">
+  <!-- BOOTSTRAP-CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+  <!-- CUSTOM-CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- JQUERY-JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body class="p-0">
+  <!-- PRELOADER-START -->
+  <div class="preloader" id="preloader">
+    <div class="loader">
+      <svg width="200" height="150" viewBox="0 0 818 498" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="strokeGradient">
+            <stop offset="5%" stop-color="#191919" />
+            <stop offset="60%" stop-color="#F26522" />
+            <stop offset="100%" stop-color="#F26522" />
+          </linearGradient>
+        </defs>
+        <path class="pulse" d="M0 305.5H266L295.5 229.5L384 496L460 1.5L502.5 377.5L553 305.5H818" stroke-width="8" />
+      </svg>
+    </div>
+  </div>
+  <!-- PRELOADER-END -->
+
+  <!-- HEADER-SECTION START -->
+  <header class="header fixed-top pe-0">
+    <div class="container">
+      <nav id="mainnav" class="d-flex align-items-center justify-content-between" aria-labelledby="mainnav">
+        <!-- HAMBURGER-MENU START -->
+        <div class="d-lg-none d-block">
+          <button class="btn-hamburger" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobilemenu"
+            aria-controls="mobilemenu">
+            <span class="icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2 5.995C2 5.445 2.446 5 2.995 5H11.005C11.2689 5 11.522 5.10483 11.7086 5.29143C11.8952 5.47803 12 5.73111 12 5.995C12 6.25889 11.8952 6.51197 11.7086 6.69857C11.522 6.88517 11.2689 6.99 11.005 6.99H2.995C2.73111 6.99 2.47803 6.88517 2.29143 6.69857C2.10483 6.51197 2 6.25889 2 5.995ZM2 12C2 11.45 2.446 11.005 2.995 11.005H21.005C21.2689 11.005 21.522 11.1098 21.7086 11.2964C21.8952 11.483 22 11.7361 22 12C22 12.2639 21.8952 12.517 21.7086 12.7036C21.522 12.8902 21.2689 12.995 21.005 12.995H2.995C2.73111 12.995 2.47803 12.8902 2.29143 12.7036C2.10483 12.517 2 12.2639 2 12ZM2.995 17.01C2.73111 17.01 2.47803 17.1148 2.29143 17.3014C2.10483 17.488 2 17.7411 2 18.005C2 18.2689 2.10483 18.522 2.29143 18.7086C2.47803 18.8952 2.73111 19 2.995 19H15.005C15.2689 19 15.522 18.8952 15.7086 18.7086C15.8952 18.522 16 18.2689 16 18.005C16 17.7411 15.8952 17.488 15.7086 17.3014C15.522 17.1148 15.2689 17.01 15.005 17.01H2.995Z"
+                  fill="#333333" />
+              </svg>
+            </span>
+          </button>
+        </div>
+        <!-- HAMBURGER-MENU END -->
+ 
+        <!-- NAVBAR START -->
+        <div id="navbar-placeholder"></div>
+        <!-- NAVBAR END -->
+
+        <!-- LANGUAGE-CHANGE AND BOOK-AN-APPOINTMENT -->
+        <div class="d-flex align-items-center gap-4">
+          <!-- LANGUAGE-FORM -->
+          <div class="d-flex align-items-center gap-4">
+            <!-- LANGUAGE LINKS -->
+            <a href="tu_pagina_de_inicio.html" class="desktoplist-linkk">Iniciar Sesion</a>
+            <figure class="divider">
+              <svg width="2" height="20" viewBox="0 0 2 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.256004 25.38V0.925H1.738V25.38H0.256004Z" fill="black" />
+                <!-- Cambiado a "black" y el height a 26 -->
+              </svg>
+            </figure>
+            <a href="tu_pagina_de_creacion_de_cuenta.html" class="desktoplist-linkk">Crear Cuenta</a>
+            <!-- BOOK-AN-APPOINTMENT BUTTON -->
+            <div class="d-none d-lg-block fixed-button">
+              <a href="appointment.html" class="btn-book" id="open-calendar-button">Agendar una
+                visita!</a>
+            </div>
+          </div>
+      </nav>
+    </div>
+  </header>
+  <!-- HEADER-SECTION END -->
+
+  <!-- MAIN-SECTION START -->
+  <main class="mainsection">
+    <!-- REVIEWS-SECTION START -->
+    <section class="clientreviews">
+      <div class="container">
+        <div class="clientreviews-details">
+          <div class="row">
+            <div class="col-lg-6 mx-lg-auto">
+              <div class="clientreviews-header" data-aos="fade-up">
+                <h5 class="italic-text">Patient Reviews</h5>
+                <h2 class="title">
+                  Experiencias Reales
+                </h2>
+                <p class="section-text">
+                  Opiniones auténticas que respaldan la calidad de nuestros productos
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row gy-4 gx-0 g-md-4 w-100">
+            <div class="col-lg-4 col-md-6 col-12" data-aos="flip-up">
+              <div class="cardreview">
+                <ul class="reviewlist">
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+                </ul>
+
+                <div class="reviewinfo">
+                  <p class="section-text">
+                    Dr. Sarment was instrumental in making my children's braces experience.
+                    She is fun, caring and very open. I would recommend Dr. Sarment to all
+                    my friends! The staff creates a welcoming environment, everyone is
+                    super sweet! Your needs are always met and your questions always answered.
+                    Always a pleasure going into my appointments because I know I am in good hands!
+                  </p>
+                </div>
+
+                <div class="authorinfo">
+                  <figure class="author-thumbnail">
+                    <img src="assets/images/authors/avatar-1.png" alt="author-thumbnail">
+                  </figure>
+                  <h5 class="authorname">Olivia Davis</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12" data-aos="flip-up">
+              <div class="cardreview">
+                <ul class="reviewlist">
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+                </ul>
+
+                <div class="reviewinfo">
+                  <p class="section-text">
+                    Dr. Sarment was instrumental in making my children's braces experience.
+                    She is fun, caring and very open. I would recommend Dr. Sarment to all
+                    my friends! The staff creates a welcoming environment, everyone is
+                    super sweet! Your needs are always met and your questions always answered.
+                    Always a pleasure going into my appointments because I know I am in good hands!
+                  </p>
+                </div>
+
+                <div class="authorinfo">
+                  <figure class="author-thumbnail">
+                    <img src="assets/images/authors/avatar-1.png" alt="author-thumbnail">
+                  </figure>
+                  <h5 class="authorname">Olivia Davis</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12" data-aos="flip-up">
+              <div class="cardreview">
+                <ul class="reviewlist">
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+                </ul>
+
+                <div class="reviewinfo">
+                  <p class="section-text">
+                    Dr. Sarment was instrumental in making my children's braces experience.
+                    She is fun, caring and very open. I would recommend Dr. Sarment to all
+                    my friends! The staff creates a welcoming environment, everyone is
+                    super sweet! Your needs are always met and your questions always answered.
+                    Always a pleasure going into my appointments because I know I am in good hands!
+                  </p>
+                </div>
+
+                <div class="authorinfo">
+                  <figure class="author-thumbnail">
+                    <img src="assets/images/authors/avatar-1.png" alt="author-thumbnail">
+                  </figure>
+                  <h5 class="authorname">Olivia Davis</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12" data-aos="flip-up">
+              <div class="cardreview">
+                <ul class="reviewlist">
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+                </ul>
+
+                <div class="reviewinfo">
+                  <p class="section-text">
+                    Dr. Sarment was instrumental in making my children's braces experience.
+                    She is fun, caring and very open. I would recommend Dr. Sarment to all
+                    my friends! The staff creates a welcoming environment, everyone is
+                    super sweet! Your needs are always met and your questions always answered.
+                    Always a pleasure going into my appointments because I know I am in good hands!
+                  </p>
+                </div>
+
+                <div class="authorinfo">
+                  <figure class="author-thumbnail">
+                    <img src="assets/images/authors/avatar-1.png" alt="author-thumbnail">
+                  </figure>
+                  <h5 class="authorname">Olivia Davis</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12" data-aos="flip-up">
+              <div class="cardreview">
+                <ul class="reviewlist">
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+                </ul>
+
+                <div class="reviewinfo">
+                  <p class="section-text">
+                    Dr. Sarment was instrumental in making my children's braces experience.
+                    She is fun, caring and very open. I would recommend Dr. Sarment to all
+                    my friends! The staff creates a welcoming environment, everyone is
+                    super sweet! Your needs are always met and your questions always answered.
+                    Always a pleasure going into my appointments because I know I am in good hands!
+                  </p>
+                </div>
+
+                <div class="authorinfo">
+                  <figure class="author-thumbnail">
+                    <img src="assets/images/authors/avatar-1.png" alt="author-thumbnail">
+                  </figure>
+                  <h5 class="authorname">Olivia Davis</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12" data-aos="flip-up">
+              <div class="cardreview">
+                <ul class="reviewlist">
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+                </ul>
+
+                <div class="reviewinfo">
+                  <p class="section-text">
+                    Dr. Sarment was instrumental in making my children's braces experience.
+                    She is fun, caring and very open. I would recommend Dr. Sarment to all
+                    my friends! The staff creates a welcoming environment, everyone is
+                    super sweet! Your needs are always met and your questions always answered.
+                    Always a pleasure going into my appointments because I know I am in good hands!
+                  </p>
+                </div>
+
+                <div class="authorinfo">
+                  <figure class="author-thumbnail">
+                    <img src="assets/images/authors/avatar-1.png" alt="author-thumbnail">
+                  </figure>
+                  <h5 class="authorname">Olivia Davis</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12" data-aos="flip-up">
+              <div class="cardreview">
+                <ul class="reviewlist">
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+                </ul>
+
+                <div class="reviewinfo">
+                  <p class="section-text">
+                    Dr. Sarment was instrumental in making my children's braces experience.
+                    She is fun, caring and very open. I would recommend Dr. Sarment to all
+                    my friends! The staff creates a welcoming environment, everyone is
+                    super sweet! Your needs are always met and your questions always answered.
+                    Always a pleasure going into my appointments because I know I am in good hands!
+                  </p>
+                </div>
+
+                <div class="authorinfo">
+                  <figure class="author-thumbnail">
+                    <img src="assets/images/authors/avatar-1.png" alt="author-thumbnail">
+                  </figure>
+                  <h5 class="authorname">Olivia Davis</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12" data-aos="flip-up">
+              <div class="cardreview">
+                <ul class="reviewlist">
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+                </ul>
+
+                <div class="reviewinfo">
+                  <p class="section-text">
+                    Dr. Sarment was instrumental in making my children's braces experience.
+                    She is fun, caring and very open. I would recommend Dr. Sarment to all
+                    my friends! The staff creates a welcoming environment, everyone is
+                    super sweet! Your needs are always met and your questions always answered.
+                    Always a pleasure going into my appointments because I know I am in good hands!
+                  </p>
+                </div>
+
+                <div class="authorinfo">
+                  <figure class="author-thumbnail">
+                    <img src="assets/images/authors/avatar-1.png" alt="author-thumbnail">
+                  </figure>
+                  <h5 class="authorname">Olivia Davis</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12" data-aos="flip-up">
+              <div class="cardreview">
+                <ul class="reviewlist">
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+
+                  <li class="reviewlist-item">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.76699 29.3333L9.93366 19.9667L2.66699 13.6667L12.267 12.8333L16.0003 4L19.7337 12.8333L29.3337 13.6667L22.067 19.9667L24.2337 29.3333L16.0003 24.3667L7.76699 29.3333Z"
+                        fill="#F26522"></path>
+                    </svg>
+                  </li>
+                </ul>
+
+                <div class="reviewinfo">
+                  <p class="section-text">
+                    Dr. Sarment was instrumental in making my children's braces experience.
+                    She is fun, caring and very open. I would recommend Dr. Sarment to all
+                    my friends! The staff creates a welcoming environment, everyone is
+                    super sweet! Your needs are always met and your questions always answered.
+                    Always a pleasure going into my appointments because I know I am in good hands!
+                  </p>
+                </div>
+
+                <div class="authorinfo">
+                  <figure class="author-thumbnail">
+                    <img src="assets/images/authors/avatar-1.png" alt="author-thumbnail">
+                  </figure>
+                  <h5 class="authorname">Olivia Davis</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- REVIEWS-SECTION END -->
+
+    <!-- BODY-ICON -->
+    <figure class="bodyicon">
+      <svg width="185" height="372" viewBox="0 0 185 372" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="-1.47127" y="1.7669" width="121.852" height="121.852" transform="rotate(43.3362 -1.47127 1.7669)"
+          stroke="#F26522" stroke-width="1.11403" />
+        <path d="M85.8744 102.416L174.501 186.039C128.191 234.684 51.3065 236.917 2.25095 191.042L85.8744 102.416Z"
+          stroke="#017F7E" stroke-width="1.11403" />
+        <rect x="-5.14021" y="198.876" width="121.852" height="121.852" transform="rotate(43.3362 -5.14021 198.876)"
+          stroke="#F26522" stroke-width="1.11403" />
+      </svg>
+    </figure>
+  </main>
+  <!-- MAIN-SECTION END -->
+
+<!-- FOOTER-SECTION START -->
+<div id="footer-placeholder"></div>
+<!-- FOOTER-SECTION END -->
+
+  <!-- NAVBAR-JS -->
+  <script src="assets/js/navbar.js"></script>
+  <!-- FOOTER-JS -->
+  <script src="assets/js/footer.js"></script>
+  <!-- BOOTSTRAP-JS -->
+  <script src="assets/js/bootsrap/bootstrap.bundle.min.js"></script>
+  <!-- TOOLTIP-JS -->
+  <script src="assets/js/tooltip/tooltip.js"></script>
+  <!-- PRELOADER-JS -->
+  <script src="assets/js/loader/loader.js"></script>
+  <!-- COPYRIGHT-JS -->
+  <script src="assets/js/copyright/copyright.js"></script>
+  <!-- AOS-JS -->
+  <script src="assets/js/aos/aos.js"></script>
+  <script src="assets/js/aos/scrollanimations.js"></script>
+</body>
+
+</html>

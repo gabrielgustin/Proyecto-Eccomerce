@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dermatology - Responsive HTML Template | Appointment</title>
+  <!-- FAVICON-ICON -->
+  <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+  <!-- BACK-TO-TOP-CSS -->
+  <link rel="stylesheet" href="assets/css/back-top/back-top.css">
+  <!-- AOS-CSS -->
+  <link rel="stylesheet" href="assets/css/aos/aos.css">
+  <!-- FLATPICKR-CSS -->
+  <link rel="stylesheet" href="assets/css/flatpickr/flatpickr.min.css">
+  <!-- CHOICE-SELECT-CSS -->
+  <link rel="stylesheet" href="assets/css/choices/choices.min.css">
+  <!-- BOOTSTRAP-CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+  <!-- CUSTOM-CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- JQUERY-JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+</head>
+
+<body class="p-0">
+  <!-- PRELOADER-START -->
+  <div class="preloader" id="preloader">
+    <div class="loader">
+      <svg width="200" height="150" viewBox="0 0 818 498" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="strokeGradient">
+            <stop offset="5%" stop-color="#191919" />
+            <stop offset="60%" stop-color="#F26522" />
+            <stop offset="100%" stop-color="#F26522" />
+          </linearGradient>
+        </defs>
+        <path class="pulse" d="M0 305.5H266L295.5 229.5L384 496L460 1.5L502.5 377.5L553 305.5H818" stroke-width="8" />
+      </svg>
+    </div>
+  </div>
+  <!-- PRELOADER-END -->
+
+  <!-- HEADER-SECTION START -->
+  <header class="header fixed-top pe-0">
+    <div class="container">
+      <nav id="mainnav" class="d-flex align-items-center justify-content-between" aria-labelledby="mainnav">
+        <!-- HAMBURGER-MENU START -->
+        <div class="d-lg-none d-block">
+          <button class="btn-hamburger" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobilemenu"
+            aria-controls="mobilemenu">
+            <span class="icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2 5.995C2 5.445 2.446 5 2.995 5H11.005C11.2689 5 11.522 5.10483 11.7086 5.29143C11.8952 5.47803 12 5.73111 12 5.995C12 6.25889 11.8952 6.51197 11.7086 6.69857C11.522 6.88517 11.2689 6.99 11.005 6.99H2.995C2.73111 6.99 2.47803 6.88517 2.29143 6.69857C2.10483 6.51197 2 6.25889 2 5.995ZM2 12C2 11.45 2.446 11.005 2.995 11.005H21.005C21.2689 11.005 21.522 11.1098 21.7086 11.2964C21.8952 11.483 22 11.7361 22 12C22 12.2639 21.8952 12.517 21.7086 12.7036C21.522 12.8902 21.2689 12.995 21.005 12.995H2.995C2.73111 12.995 2.47803 12.8902 2.29143 12.7036C2.10483 12.517 2 12.2639 2 12ZM2.995 17.01C2.73111 17.01 2.47803 17.1148 2.29143 17.3014C2.10483 17.488 2 17.7411 2 18.005C2 18.2689 2.10483 18.522 2.29143 18.7086C2.47803 18.8952 2.73111 19 2.995 19H15.005C15.2689 19 15.522 18.8952 15.7086 18.7086C15.8952 18.522 16 18.2689 16 18.005C16 17.7411 15.8952 17.488 15.7086 17.3014C15.522 17.1148 15.2689 17.01 15.005 17.01H2.995Z"
+                  fill="#333333" />
+              </svg>
+            </span>
+          </button>
+        </div>
+        <!-- HAMBURGER-MENU END -->
+
+        <!-- NAVBAR START -->
+        <div id="navbar-placeholder"></div>
+        <!-- NAVBAR END -->
+        
+        <!-- LANGUAGE-CHANGE AND BOOK-AN-APPOINTMENT -->
+        <div class="d-flex align-items-center gap-4">
+          <!-- LANGUAGE-FORM -->
+          <div class="d-flex align-items-center gap-4">
+            <!-- LANGUAGE LINKS -->
+            <a href="tu_pagina_de_inicio.html" class="desktoplist-linkk">Iniciar Sesion</a>
+
+            <figure class="divider">
+              <svg width="2" height="20" viewBox="0 0 2 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.256004 25.38V0.925H1.738V25.38H0.256004Z" fill="black" />
+                <!-- Cambiado a "black" y el height a 26 -->
+              </svg>
+            </figure>
+            <a href="tu_pagina_de_creacion_de_cuenta.html" class="desktoplist-linkk">Crear Cuenta</a>
+            <!-- BOOK-AN-APPOINTMENT BUTTON -->
+            
+          </div>
+      </nav>
+    </div>
+  </header>
+  <!-- HEADER-SECTION END -->
+  <!-- MAIN-SECTION START -->
+  <main class="mainsection">
+    <!-- MYAPPOINTMENT-SECTION START -->
+    <section class="myappointment">
+      <div class="container">
+        <div class="row g-0">
+          <div class="col-lg-11 mx-lg-auto">
+            <div class="row g-4">
+              <!-- APPOINTMENT-FORM -->
+              <div class="col-lg-6">
+                <div class="myappointment-details" data-aos="flip-left">
+                  <div class="myappointment-header">
+                    <h2 class="title" style="margin-top: 20px;">
+                      Agenda una visita!
+                    </h2>
+                    <p class="section-text">
+                      Completa los datos segun corresponda
+                    </p>
+                  </div>
+
+                  <div class="myappointment-body">
+                    <form class="appointmentform needs-validation" novalidate>
+                      <div class="row g-4">
+                        <div class="col-lg-6">
+                          <input type="text" class="form-control" id="firstname" placeholder="Nombre"
+                            autocomplete="off" required>
+                          <div class="invalid-feedback">
+                            Este campo es obligatorio!
+                          </div>
+                          <div class="valid-feedback">
+                            Perfecto!
+                          </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                          <input type="text" class="form-control" id="lastname" placeholder="Apellido"
+                            autocomplete="off" required>
+                          <div class="invalid-feedback">
+                            Este campo es obligatorio!
+                          </div>
+                          <div class="valid-feedback">
+                            Perfecto!
+                          </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                          <input type="email" class="form-control" id="emailaddress" placeholder="G-mail"
+                            autocomplete="off" required>
+                          <div class="invalid-feedback">
+                            Este campo es obligatorio!
+                          </div>
+                          <div class="valid-feedback">
+                            Perfecto!
+                          </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                          <input type="tel" class="form-control" id="phonenumber" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"
+                            placeholder="Numero telefono" autocomplete="off" required>
+                          <div class="invalid-feedback">
+                            Este campo es obligatorio!
+                          </div>
+                          <div class="valid-feedback">
+                            Perfecto!
+                          </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                          <input type="text" id="mydatepicker" class="calendar form-control w-100"
+                            placeholder="Fecha" autocomplete="off" required>
+                          <div class="invalid-feedback">
+                            Este campo es obligatorio!
+                          </div>
+                          <div class="valid-feedback">
+                            Perfecto!
+                          </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                          <div class="position-relative w-100 mytimepicker">
+                            <input type="text" id="mytimepicker" class="time-pickable form-control w-100"
+                              placeholder="Horario" autocomplete="off" required>
+                          </div>
+                          <div class="invalid-feedback">
+                            Este campo es obligatorio!
+                          </div>
+                          <div class="valid-feedback">
+                            Perfecto!
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <button class="btn-border w-100" type="submit" style="margin-top: 14%;">Enviar!</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+              <!-- CALENDARIO START-->
+              <div class="col-lg-6">
+                <div class="appointment-info" data-aos="flip-right" style="margin-top: 20px">
+                    <div id="calendar-container" class="container_calendar">
+                      <div class="header_calendar">
+                          <h1 id="text_day">00</h1>
+                          <h5 id="text_month">Null</h5>
+                      </div>
+                      <div class="body_calendar">
+                          <div class="container_details">
+                              <div class="detail_1">
+                                  <div class="detail">
+                                      <div class="circle">
+                                          <div class="column"></div>
+                                      </div>
+                                  </div>
+                                  <div class="detail">
+                                      <div class="circle">
+                                          <div class="column"></div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="detail_2">
+                                  <div class="detail">
+                                      <div class="circle">
+                                          <div class="column"></div>
+                                      </div>
+                                  </div>
+                                  <div class="detail">
+                                      <div class="circle">
+                                          <div class="column"></div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="container_change_month">
+                              <button id="last_month">&lt;</button>
+                              <div>
+                                  <span id="text_month_02">Null</span>
+                                  <span id="text_year">0000</span>
+                              </div>
+                              <button id="next_month">&gt;</button>
+                          </div>
+                          <div class="container_weedays">
+                              <span class="week_days_item">DOM</span>
+                              <span class="week_days_item">LUN</span>
+                              <span class="week_days_item">MAR</span>
+                              <span class="week_days_item">MÍE</span>
+                              <span class="week_days_item">JUE</span>
+                              <span class="week_days_item">VIE</span>
+                              <span class="week_days_item">SÁB</span>
+                          </div>
+                          <div class="container_days">
+                              <span class="week_days_item item_day"></span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- CALENDARIO END -->
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- MYAPPOINTMENT-SECTION END -->
+
+    <!-- NEWSLETTER-START -->
+    <section class="newsletter" data-aos="zoom-in-down">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-8 mx-lg-auto">
+            <div class="newsletter-content">
+              <div class="newsletter-header">
+                <div class="titlebox">
+                  <h2 class="title">
+                    Subscribete para recibir novedades!
+                  </h2>
+                </div>
+              </div>
+
+              <div class="newsletter-body">
+                <form class="row g-0 needs-validation" novalidate>
+                  <div class="col-8">
+                    <input type="email" class="form-control" id="newsletteremail" placeholder="Dirección de correo electrónico"
+                      autocomplete="off" required>
+                    <div class="invalid-feedback">
+                      Este campo es obligatorio!
+                    </div>
+                    <div class="valid-feedback">
+                      Perfecto!
+                    </div>
+                  </div>
+
+                  <div class="col-4">
+                    <button class="btn-border" type="submit">Enviar</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- NEWSLETTER-END -->
+
+    <!-- BODY-ICON -->
+    <figure class="bodyicon">
+      <svg width="185" height="372" viewBox="0 0 185 372" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="-1.47127" y="1.7669" width="121.852" height="121.852" transform="rotate(43.3362 -1.47127 1.7669)"
+          stroke="#F26522" stroke-width="1.11403" />
+        <path d="M85.8744 102.416L174.501 186.039C128.191 234.684 51.3065 236.917 2.25095 191.042L85.8744 102.416Z"
+          stroke="#017F7E" stroke-width="1.11403" />
+        <rect x="-5.14021" y="198.876" width="121.852" height="121.852" transform="rotate(43.3362 -5.14021 198.876)"
+          stroke="#F26522" stroke-width="1.11403" />
+      </svg>
+    </figure>
+  </main>
+  <!-- MAIN-SECTION END -->
+
+<!-- FOOTER-SECTION START -->
+<div id="footer-placeholder"></div>
+<!-- FOOTER-SECTION END -->
+
+  <!-- NAVBAR-JS -->
+  <script src="assets/js/navbar.js"></script>
+  <!-- FOOTER-JS -->
+  <script src="assets/js/footer.js"></script>
+  <!-- BOOTSTRAP-JS -->
+  <script src="assets/js/bootsrap/bootstrap.bundle.min.js"></script>
+  <!-- TOOLTIP-JS -->
+  <script src="assets/js/tooltip/tooltip.js"></script>
+  <!-- PRELOADER-JS -->
+  <script src="assets/js/loader/loader.js"></script>
+  <!-- COPYRIGHT-JS -->
+  <script src="assets/js/copyright/copyright.js"></script>
+  <!-- FLATPICKR-JS -->
+  <script src="assets/js/flatpickr/flatpickr.min.js"></script>
+  <script src="assets/js/flatpickr/calendar.js"></script>
+  <!-- CHOICES-JS -->
+  <script src="assets/js/choices/choices.min.js"></script>
+  <script src="assets/js/choices/myselect.js"></script>
+  <!-- TIMEPICKER-JS -->
+  <script src="assets/js/timepicker/timepicker.js"></script>
+  <!-- FORM-VALIDATION -->
+  <script src="assets/js/validation/validation.js"></script>
+  <!-- AOS-JS -->
+  <script src="assets/js/aos/aos.js"></script>
+  <script src="assets/js/aos/scrollanimations.js"></script>
+  <!-- Calendario -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./assets/js/calendario.js"></script>
+          
+</body>
+
+</html>
